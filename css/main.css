@@ -1,21 +1,41 @@
 body {
     background-image: url(../img/bg.png);
     background-color: #CCCCCC;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
     padding-top: 20px;
     padding-bottom: 40px;
 
 }
 
+h1, h2, h3, h4, h5, p, li {
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid {
     max-width: 860px;
     margin: 0 auto;
-}
-.wrapper {
     background-color: #FFFFFF;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
        -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.30), 0 0 40px rgba(0, 0, 0, 0.10) inset;  
-    padding: 50px 40px 19px 40px;  
+    padding: 50px 40px 50px 40px;  
 }
 
+header {
+    margin-bottom: 0.75em;
+}
+
+hr { margin-top: 1em; margin-bottom: 1em; }
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.25em; }
+p { font-size: 1em; }
+
+.nav li {
+    display:inline;
+    padding-right: 1em;
+}
