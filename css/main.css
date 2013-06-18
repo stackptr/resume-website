@@ -35,6 +35,8 @@ h2 { font-size: 2em; }
 h3 { font-size: 1.25em; }
 p { font-size: 1em; }
 
+.download-resume {float:right; }
+
 .nav li {
     display:inline;
     padding-right: 1em;

@@ -22,8 +22,8 @@
             <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont.js"></script>
         <script>
             WebFont.load({ google: { families: ['Droid Sans'] } });
         </script>
@@ -31,11 +31,17 @@
     <body>
         <div class="container-fluid">
             <header class="row-fluid text-center">
+                <span class="pull-right">
+                    <a href="#" id="download-resume" data-toggle="tooltip" data-placement="top" data-trigger="hover" title data-original-title="Download print resume" >
+                        <i class="icon-download-alt"></i>
+                    </a>
+                </span>
+                <br>
                 <h1 class="my-name">John Doe</h1>
                 <ul class="nav">
                     <li><i class="icon-phone"></i> <span class="my-phone">+1 800 555 555</span></li>
                     <li><i class="icon-envelope-alt"></i> <span class="my-email">john@doe.name</span></li>
-                    <li><i class="icon-twitter"></i> <span class="my-twitter">@stackptr</span></li>
+                    <li><i class="icon-github"></i> <span class="my-twitter">stackptr</span></li>
                     <li><i class="icon-linkedin"></i> <span class="my-linkedin">linkedin</span></li>
                 </ul>
             </header>
@@ -81,6 +87,10 @@
             <footer class="row-fluid">
             </footer>
         </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $( function() { $("#download-resume").tooltip(); } );
+    </script>
     </body>
 </html>
 <!-- Dare to be gorgeous and unique. But don't ever be cryptic or otherwise  -->
