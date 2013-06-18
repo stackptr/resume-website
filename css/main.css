@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/bg.png);
+    background-color: #CCCCCC;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.container-fluid {
+    max-width: 860px;
+    margin: 0 auto;
+}
+.wrapper {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+       -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.30), 0 0 40px rgba(0, 0, 0, 0.10) inset;  
+    padding: 50px 40px 19px 40px;  
+}
+
