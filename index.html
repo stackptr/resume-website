@@ -9,14 +9,9 @@
         <meta name="keywords" content="resume, web design, student" />
         <meta name="author" content="John Doe" />
 
-        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-
-        <link rel="shortcut icon" type="image/png" href="css/favicon.ico" />
-
-        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
-        <link rel="openid2.local_id" href="http://www.gplus.to/cjohns" />
+        <link rel="stylesheet" type="text/css" media="screen, print" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen, print" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" media="screen, print" href="css/main.css" />
 
         <!--[if lt IE 9]>
             <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,7 +20,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont.js"></script>
         <script>
-            WebFont.load({ google: { families: ['Droid Sans'] } });
+            WebFont.load({ google: { families: ['Droid Serif'] } });
         </script>
     </head>
     <body>
@@ -38,53 +33,76 @@
                 </span>
                 <br>
                 <h1 class="my-name">John Doe</h1>
-                <ul class="nav">
-                    <li><i class="icon-phone"></i> <span class="my-phone">+1 800 555 555</span></li>
-                    <li><i class="icon-envelope-alt"></i> <span class="my-email">john@doe.name</span></li>
-                    <li><i class="icon-github"></i> <span class="my-twitter">stackptr</span></li>
-                    <li><i class="icon-linkedin"></i> <span class="my-linkedin">linkedin</span></li>
+                <ul class="nav icons-ul">
+                    <li><i class="icon-li icon-phone"></i><span class="my-phone">+1 800 555 555</span></li>
+                    <li><i class="icon-li icon-envelope-alt"></i><span class="my-email">john@doe.name</span></li>
+                    <li><i class="icon-li icon-github-alt"></i><span class="my-twitter">stackptr</span></li>
+                    <li><i class="icon-li icon-linkedin"></i><span class="my-linkedin">linkedin</span></li>
                 </ul>
             </header>
             <article class="row-fluid resume">
                 <section>
-                    <h2>Objective</h2>
+                    <h1>Objective</h1>
                     <p>Helvetica seitan mixtape DIY retro. Vegan actually roof party Brooklyn, Neutra PBR occupy fingerstache sartorial seitan hashtag. Chambray tofu american apparel semiotics McSweeney's tote bag, cray dreamcatcher Etsy.</p>
                 </section>
                 <hr>
                 <section>
-                    <h2>Education</h2>
-                    <h3>State University</h3>
-                    <p class="muted pull-right">Class of 2014</p>
+                    <h1>Education</h1>
+                    <h2>State University</h2>
+                    <p class="muted my-graduation-date">Class of 2014</p>
                     <p>Bachelor of Science, Electrical Engineering</p>
                     <p>GPA: 4.0/4.0</p>
                 </section>
                 <hr>
                 <section>
-                    <h2>Experience</h2>
-                    <div class="row-fluid">
+                    <h1>Relevant Coursework</h1>
+                    <p>Comparative Basket Weaving, Craft Beer Topological Analysis, Interpretation of Knitting, History of Mixtapes, Alternative Semiotics</p>
+                </section>
+                <hr>
+                <section>
+                    <h1>Experience</h1>
+                    <section class="row-fluid">
                         <div class="span8">
-                            <h3 class="my-job">Levy Pants, Inc.<h3>
-                            <p class="my-position">Clerk</p>
-                            <ul>
+                            <h2 class="my-job">Levy Pants, Inc.</h2>
+                            <h3 class="my-job-position">Clerk</h3>
+                            <ul class="my-job-duties">
                                 <li>Job duty one.</li>
                                 <li>Job duty two included much of the same from duty one.</li>
                             </ul>
                         </div>
-                        <div class="span4">
-                            <p class="muted pull-right">
-                                <span class="my-job-period">Aug 2012 - present</span>
-                                <br />
-                                <span class="my-job-location">New Orleans, LA</span>
-                            </p>
+                        <p class="span4 muted">
+                            <span class="my-job-period">Aug 2012 - present</span>
+                            <br />
+                            <span class="my-job-location">New Orleans, LA</span>
+                        </p>
+                    </section>
+                    <section class="row-fluid">
+                        <div class="span8">
+                            <h2 class="my-job">State University</h2>
+                            <h3 class="my-job-position">Clerk</h3>
+                            <ul class="my-job-duties">
+                                <li>Job duty one.</li>
+                                <li>Job duty two included much of the same from duty one.</li>
+                            </ul>
                         </div>
-                    </div>
+                        <p class="span4 muted">
+                            <span class="my-job-period">Aug 2012 - present</span>
+                            <br />
+                            <span class="my-job-location">New Orleans, LA</span>
+                        </p>
+                    </section>
                 </section>
                 <hr>
                 <section>
-                    <h2>Skills</h2>
+                    <h1>Accomplishments and Activities</h1>
+                </section>
+                <hr>
+                <section>
+                    <h1>Skills</h1>
                 </section>
             </article>
             <footer class="row-fluid">
+                <p class="muted pull-right"></p>
             </footer>
         </div>
     <script src="js/bootstrap.min.js"></script>
@@ -93,6 +111,3 @@
     </script>
     </body>
 </html>
-<!-- Dare to be gorgeous and unique. But don't ever be cryptic or otherwise  -->
-<!-- unfathomable. Make it unforgettably great.                              -->
-<!--      - Robert J. Mical, Amiga Intuition Reference Manual                -->

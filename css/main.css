@@ -1,17 +1,10 @@
 body {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/--.png);
     background-color: #CCCCCC;
     font-size: 13px;
     padding-top: 20px;
     padding-bottom: 40px;
 
-}
-
-h1, h2, h3, h4, h5, p, li {
-    font-family: "Droid Serif", serif;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
 }
 
 .container-fluid {
@@ -28,16 +21,50 @@ header {
     margin-bottom: 0.75em;
 }
 
-hr { margin-top: 1em; margin-bottom: 1em; }
+hr { 
+    margin: 1em inherit; 
+}
 
-h1 { font-size: 2.5em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.25em; }
-p { font-size: 1em; }
+h1, h2, h3, h4, h5, p, li {
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
 
-.download-resume {float:right; }
+h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+section h1{
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 20px;
+}
+
+p { 
+    font-size: 1em;
+    margin-left: 2em;
+}
+
+.download-resume { float:right; }
 
 .nav li {
     display:inline;
-    padding-right: 1em;
+    margin-right: 34px;
+}
+
+.my-graduation-date,
+.my-job-period,
+.my-job-location {
+    float: right;
 }
